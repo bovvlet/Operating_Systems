@@ -1,0 +1,15 @@
+#include<stdio.h>
+#inlude<stdlib.h>
+
+void *realloc(int *arr, int n_old, int n_new){
+	if(*arr == NULL){
+		
+}
+}
+
+int main(){
+
+	int a1[10];
+	int *a2 = malloc(sizeof(int) * 10;
+
+	
