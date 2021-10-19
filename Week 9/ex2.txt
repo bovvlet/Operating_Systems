@@ -1,0 +1,1 @@
+We must utilize the pages while they are in the memory to reduce the miss rate; for example, if we need to use page 2 12 three times, we must use it when it is in the memory to avoid a miss. One way to accomplish this is to arrange the pages in such a way that they all follow each other.
