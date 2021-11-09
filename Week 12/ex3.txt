@@ -1,0 +1,8 @@
+pe
+I passed the Exam!
+cap
+Get some cappuccino!
+gscc
+Get some Cheese cake!
+cap
+Get some cappuccino!
