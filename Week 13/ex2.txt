@@ -1,0 +1,30 @@
+3 ways of handling deadlock: avoidance, prevention and recovery.
+
+	*Prevention*
+	When dealing with a deadlock, prevention is an effective method. 
+	Dealing with a deadlock might be inefficient or risky for our system. 
+	It's possible that we won't be able to totally avoid the stalemate because we won't be able 
+	to feed the algorithm with knowledge about future requests. 
+	In such a circumstance, we may choose to employ the precautionary principle.
+	Ways of preventing of a deadlock:
+		1. Attacking the Mutual-Exclusion Condition
+		2. Attacking the Hold-and-Wait Condition
+		3. Attacking the No-Preemption Condition
+		4. Attacking the Circular Wait Condition
+	
+	*Avoidance*
+	There are certain algorithms that can help us avoid a deadlock, 
+	but they require some information about future requests. If we are able 
+	to disclose such knowledge, the wisest method is to avoid it.
+	Ways of avoiding of a deadlock:
+		1. Resource Trajectories
+		2. Safe and Unsafe States
+		3. The Baker's Algorithm
+	*Recovery*
+	This method might be useful if the deadlock has already been identified, 
+	therefore it can be employed if all other options have failed.
+	Ways of recovering from a deadlock:
+		1. Through Preemption
+		2. Through Rollback 
+		3. Through Killing Process
+	
